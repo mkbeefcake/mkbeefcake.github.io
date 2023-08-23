@@ -268,7 +268,7 @@ export const seoData: SEODataType = {
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Mark Gui',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  image: '',
   url: 'https://developer-portfolio-mkbeefcake.vercel.app',
   keywords: [
     'Hanzla',

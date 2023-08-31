@@ -211,6 +211,13 @@ export const experience: ExperienceType[] = [
     desc: 'A Founding member of Joystream community. involved as Web3 and React frontend developer on their DAO website. worked on React frontend and GraphQL queries and Hydra indexer between PostgreSQL and Polkadot parachain',
   },
   {
+    role: 'Full stack developer',
+    company: 'GFEX',
+    companyLogo: '/img/icons/common/LOGO_GFEX.png',
+    date: 'Feb 2022 – Nov 2022',
+    desc: "Full stack development for Gas condensate ratio calculation platform.",
+  },
+  {
     role: 'Low-Level Software Developer',
     company: 'Cyneward',
     companyLogo: '/img/icons/common/freelancing.png',
@@ -220,13 +227,6 @@ export const experience: ExperienceType[] = [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     // ],
-  },
-  {
-    role: 'Full stack developer',
-    company: 'GFEX',
-    companyLogo: '/img/icons/common/LOGO_GFEX.png',
-    date: 'Feb 2022 – Nov 2022',
-    desc: "Full stack development for Gas condensate ratio calculation platform.",
   },
 ];
 

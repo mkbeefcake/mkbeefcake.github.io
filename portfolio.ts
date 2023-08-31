@@ -28,7 +28,7 @@ export const contact = {};
 
 export const socialLinks: SocialLinksType = {
   url: 'https://mkbeefcake.github.io/',
-  linkedin: 'https://www.linkedin.com/in/mark-gui-6b38a7110',
+  linkedin: 'https://www.linkedin.com/in/yanfeng-gui-6b38a7110',
   github: 'https://github.com/mkbeefcake',
   mail: 'mailto:mkblockchaindev@outlook.com'
 };

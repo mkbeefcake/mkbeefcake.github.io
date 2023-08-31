@@ -15,7 +15,7 @@ export const greetings: GreetingsType = {
   name: 'Mark Gui',
   title: "Hi all, This is Mark Gui",
   description:
-    "I'm passionate Full Stack developer having an experience of web applications with FastAPI, React frameworks and Web3 development on Polkadot, Ethereum and some AI chatbots.",
+    "Boasting proficiency in FastAPI, React, and Polkadot's Web3 developments, I blend cutting-edge front-end and back-end technologies to create exceptional digital experiences. My skills further extend to creating intuitive AI chatbots, bringing intelligent interactivity to the user experience.",
   resumeLink:
     'https://drive.google.com/file/d/1BJ91BJl20-1NWeKdied_tBHigfbyx-wn/view?usp=sharing',
 };
@@ -30,21 +30,22 @@ export const socialLinks: SocialLinksType = {
   url: 'https://mkbeefcake.github.io/',
   linkedin: 'https://www.linkedin.com/in/mark-gui-6b38a7110',
   github: 'https://github.com/mkbeefcake',
+  mail: 'mailto:mkblockchaindev@outlook.com'
 };
 
 export const skillsSection: SkillsSectionType = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: 'As a senior software developer, I conceive, design, and implement innovative software solutions that drive impactful outcomes.',
   data: [
     {
       title: 'Full Stack Development',
       lottieAnimationFile: '/lottie/skills/fullstack.json', // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          '⚡ Building responsive frontend in React/Next frameworks'
+          '⚡ Skilled in crafting user-friendly and responsive front-end experiences with React/Next.js frameworks'
         ),
-        emoji('⚡ Building RESTful APIs in FastAPI Framework'),
-        emoji('⚡ Integrating AI models such as OpenAI, Langchain and etc'),
+        emoji('⚡ Composing robust RESTful endpoints with the speed and precision of FastAPI frameworks'),
+        emoji('⚡ Weaving the incredible power of AI models like OpenAI and Langchain into an intelligent tapestry of code'),
       ],
       softwareSkills: [
         {
@@ -159,15 +160,23 @@ export const skillsSection: SkillsSectionType = {
 
 export const SkillBars: SkillBarsType[] = [
   {
-    Stack: 'Frontend/Design', //Insert stack or technology you have experience in
-    progressPercentage: '90', //Insert relative proficiency in percentage
+    Stack: 'React/Next', //Insert stack or technology you have experience in
+    progressPercentage: '100', //Insert relative proficiency in percentage
   },
   {
-    Stack: 'Backend',
+    Stack: 'FastAPI',
+    progressPercentage: '100',
+  },
+  {
+    Stack: 'Web3',
     progressPercentage: '90',
   },
   {
-    Stack: 'Programming',
+    Stack: 'AI technologies',
+    progressPercentage: '90',
+  },
+  {
+    Stack: 'C/C++/Python',
     progressPercentage: '100',
   },
 ];
@@ -188,22 +197,11 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Backend Developer',
+    role: 'Full Stack AI Developer',
     company: 'LLM Solution',
     companyLogo: '/img/icons/common/LLMSolution.jpg',
-    date: 'May 2023 – Present',
-    desc: 'Worked as a backend developer, designing backend architectures, provider plugin systems, integrated 3rd party provider services, and various AI models. Integrated Pinecone, OpenAI, and Langchain on the FastAPI based backend platform',
-  },
-  {
-    role: 'Full Stack Developer',
-    company: 'Rumba.ai',
-    companyLogo: '/img/icons/common/rumba_logo.png',
-    date: 'Feb 2023 – May 2023',
-    desc: "Worked as a full stack developer. Rumba.ai automates & optimize end-user's brand social media content by using various AI models. Here integrated OpenAI text generation from prompt, HuggingFace image generation features",
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: 'May 2023 – July 2023',
+    desc: 'Designing AI bot system architectures, provider plugins, integrating 3rd party services and various AI models. Specialized in Pinecones, OpenAI and Langchain with the FastAPI frameworks',
   },
   {
     role: 'A Founding member of Joystream Community',
@@ -213,11 +211,22 @@ export const experience: ExperienceType[] = [
     desc: 'A Founding member of Joystream community. involved as Web3 and React frontend developer on their DAO website. worked on React frontend and GraphQL queries and Hydra indexer between PostgreSQL and Polkadot parachain',
   },
   {
-    role: 'Full Stack Developer',
-    company: 'Freelancing',
+    role: 'Low-Level Software Developer',
+    company: 'Cyneward',
     companyLogo: '/img/icons/common/freelancing.png',
-    date: 'Jun 2018 ~ Aug 2022',
-    desc: 'Worked as Freelancer in some years. High skills and experience in React, Node, Python, C++, Laravel frameworks for various projects.',
+    date: 'Feb 2020 – Apr 2021',
+    desc: "As Windows Low-Level software developer, designed windows file system filter driver for monitoring activities, Hooking mechanism on application-level",
+    // descBullets: [
+    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
+    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    // ],
+  },
+  {
+    role: 'Full stack developer',
+    company: 'GFEX',
+    companyLogo: '/img/icons/common/LOGO_GFEX.png',
+    date: 'Feb 2022 – Nov 2022',
+    desc: "Full stack development for Gas condensate ratio calculation platform.",
   },
 ];
 
@@ -257,6 +266,11 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       'I really appreciate what you \'v done so far, I want to work with you',
   },
+  {
+    name: 'Sergiu / Cyneward',
+    feedback:
+      'Fantastic work! It truly feels like you\'ve woven magic with your code.',
+  },
 ];
 
 // option to hide or show the ContactUs component
@@ -269,14 +283,12 @@ export const seoData: SEODataType = {
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Mark Gui',
   image: '',
-  url: 'https://developer-portfolio-mkbeefcake.vercel.app',
+  url: 'https://mkbeefcake.github.io',
   keywords: [
-    'Hanzla',
     'Mark Gui',
     '@mkbeefcake',
     'mkbeefcake',
     'Portfolio',
-    'Hanzla Portfolio ',
     'Mark Gui Portfolio',
   ],
 };

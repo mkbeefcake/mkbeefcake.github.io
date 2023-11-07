@@ -230,6 +230,19 @@ export const experience: ExperienceType[] = [
   },
 ];
 
+export const challenges: ProjectType[] = [
+  {
+    name: 'ImmersiveStudio',
+    desc: 'The challenge by using three.js to implement 3d Scene',
+    github: 'https://github.com/mkbeefcake/immersiveStudio-challenge',
+  },
+  {
+    name: 'Popcorn',
+    desc: 'The challenge to integrate Yearn contract and doing operations with it.',
+    github: 'https://github.com/mkbeefcake/popcorn-challenge',
+  },
+];
+
 export const projects: ProjectType[] = [
   {
     name: 'Joystream',
@@ -241,6 +254,11 @@ export const projects: ProjectType[] = [
     name: 'Rumba.ai',
     desc: 'OpenAI integrated Social Media Content Generation system',
     link: 'https://rumba.ai',
+  },
+  {
+    name: 'Gfex',
+    desc: 'Gas condensate association system',
+    github: "https://github.com/mkbeefcake/Gfex",
   },
   {
     name: 'Thoughtware',

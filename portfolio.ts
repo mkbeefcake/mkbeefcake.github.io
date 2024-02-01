@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   description:
     "Boasting proficiency in FastAPI, React, and Polkadot's Web3 developments, I blend cutting-edge front-end and back-end technologies to create exceptional digital experiences. My skills further extend to creating intuitive AI chatbots, bringing intelligent interactivity to the user experience.",
   resumeLink:
-    'https://drive.google.com/file/d/1BJ91BJl20-1NWeKdied_tBHigfbyx-wn/view?usp=sharing',
+    'https://drive.google.com/file/d/1n4YasP6CwaYNp8a2UO_9WlEXtzdiy_b3/view?usp=sharing',
 };
 
 export const openSource = {

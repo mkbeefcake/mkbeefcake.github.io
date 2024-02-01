@@ -12,8 +12,8 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Mark Gui',
-  title: "Hi all, This is Mark Gui",
+  name: 'Mark',
+  title: "Hi all, This is Mark (Yanfeng Sun)",
   description:
     "Boasting proficiency in FastAPI, React, and Polkadot's Web3 developments, I blend cutting-edge front-end and back-end technologies to create exceptional digital experiences. My skills further extend to creating intuitive AI chatbots, bringing intelligent interactivity to the user experience.",
   resumeLink:
@@ -296,17 +296,17 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Mark Gui',
+  title: 'Mark (Yanfeng Sun)',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Mark Gui',
+  author: 'Mark (Yanfeng Sun)',
   image: '',
   url: 'https://mkbeefcake.github.io',
   keywords: [
-    'Mark Gui',
+    'Mark (Yanfeng sun)',
     '@mkbeefcake',
     'mkbeefcake',
     'Portfolio',
-    'Mark Gui Portfolio',
+    'Mark (Yanfeng Sun) Portfolio',
   ],
 };

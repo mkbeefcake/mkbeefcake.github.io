@@ -13,7 +13,7 @@ import {
 
 export const greetings: GreetingsType = {
   name: 'Mark',
-  title: "Hi all, This is Mark (Yanfeng Sun)",
+  title: "Hi all, This is Mark (孙岩峰)",
   description:
     "Boasting proficiency in FastAPI, React, and Polkadot's Web3 developments, I blend cutting-edge front-end and back-end technologies to create exceptional digital experiences. My skills further extend to creating intuitive AI chatbots, bringing intelligent interactivity to the user experience.",
   resumeLink:
@@ -296,17 +296,17 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Mark (Yanfeng Sun)',
+  title: 'Mark (孙岩峰)',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Mark (Yanfeng Sun)',
+  author: 'Mark (孙岩峰)',
   image: '',
   url: 'https://mkbeefcake.github.io',
   keywords: [
-    'Mark (Yanfeng sun)',
+    'Mark (孙岩峰)',
     '@mkbeefcake',
     'mkbeefcake',
     'Portfolio',
-    'Mark (Yanfeng Sun) Portfolio',
+    'Mark (孙岩峰) Portfolio',
   ],
 };

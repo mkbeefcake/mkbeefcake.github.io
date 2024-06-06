@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['mkbeefcake/pioneer', 'mkbeefcake/joystream', 'mkbeefcake/jitsi-meet-customized', 'mkbeefcake/Gfex', 'mkbeefcake/GFex-Elecctron', 'sapien-systems/ThoughtWare'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
+        projects: ['joystream/pioneer', 'joystream/joystream', 'mkbeefcake/jitsi-meet-customized', 'mkbeefcake/Gfex', 'mkbeefcake/GFex-Electron', 'sapien-systems/ThoughtWare'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
       },
     },
     external: {

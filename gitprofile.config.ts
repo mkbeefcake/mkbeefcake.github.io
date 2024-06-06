@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 1, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
@@ -25,11 +25,11 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['mkbeefcake/gitprofile', 'mkbeefcake/pandora'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
+        projects: ['mkbeefcake/pioneer', 'mkbeefcake/joystream', 'mkbeefcake/jitsi-meet-customized', 'mkbeefcake/Gfex', 'mkbeefcake/GFex-Elecctron', 'sapien-systems/ThoughtWare'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'My Personal Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -72,7 +72,7 @@ const CONFIG = {
     medium: 'mkbeefcake',
     dev: 'mkbeefcake',
     stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    skype: 'live:.cid.808ad2dfea00ec0b',
     telegram: '',
     website: '',
     phone: '',
@@ -80,23 +80,27 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/15EgLqrZLCYL0m4zdKXqvJNadDS_JIDkSLrVVlvqkDpU/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
+    'Typescript',
+    'Python',
+    'C/C++/C#',
+    'PHP',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'FastAPI',
+    'Laravel',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
     'Antd',
     'Tailwind',
+    'OpenAI',
+    'Web3'
   ],
   experiences: [
     {

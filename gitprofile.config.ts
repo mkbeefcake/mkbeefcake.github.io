@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Repositories',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 1, // How many projects to display.
@@ -69,8 +69,8 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'mkbeefcake',
-    dev: 'mkbeefcake',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: 'live:.cid.808ad2dfea00ec0b',
     telegram: '',
@@ -104,18 +104,18 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Joystream Community',
+      position: 'React & Web3 Developer',
+      from: 'June 2022',
+      to: 'December 2023',
+      companyLink: 'https://pioneerapp.xyz',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'DataUnion',
+      position: 'Full Stack & Web3 Developer',
+      from: 'January 2022',
+      to: 'April 2022',
+      companyLink: 'https://dataunion.app',
     },
   ],
   certifications: [
@@ -128,16 +128,10 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Yanbian University of Science and Technology',
+      degree: 'BSC of IT',
+      from: '2009',
+      to: '2013',
     },
   ],
   publications: [

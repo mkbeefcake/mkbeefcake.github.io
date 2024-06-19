@@ -1,6 +1,32 @@
 import { Fragment } from 'react';
 import { SanitizedPublication } from '../../interfaces/sanitized-config';
 import { skeleton } from '../../utils';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 3,
+    partialVisibilityGutter: 40
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 2,
+    partialVisibilityGutter: 30
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    partialVisibilityGutter: 30
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    partialVisibilityGutter: 30
+  }
+};
 
 const PublicationCard = ({
   publications,
@@ -76,7 +102,7 @@ const PublicationCard = ({
   const renderPublications = () => {
     return publications.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 cursor-pointer m-5"
         key={index}
         href={item.link}
         target="_blank"
@@ -136,9 +162,16 @@ const PublicationCard = ({
                   </h5>
                 </div>
                 <div className="col-span-2">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <Carousel 
+                      arrows={false}
+                      showDots={true}
+                      infinite={true}
+                      autoPlay={true}
+                      autoPlaySpeed={10000}
+                      itemClass="carousel-item-padding-40-px"
+                      responsive={responsive}>
                     {loading ? renderSkeleton() : renderPublications()}
-                  </div>
+                    </Carousel>
                 </div>
               </div>
             </div>

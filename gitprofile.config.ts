@@ -70,7 +70,7 @@ const CONFIG = {
         },
         {
           title: 'OpenAI Based Mail Automation System',
-          skillset: 'React, FastAPI, OpenAI, Pinecone, Supabase, GCP',
+          skillset: 'React/NextJS, FastAPI, OpenAI, Pinecone, Supabase, GCP',
           description:
             "An OpenAI-based auto mail response system that analyzes end-users' requests, detects their personalities, and suggests tailored products.",
           imageUrl:
@@ -85,6 +85,15 @@ const CONFIG = {
           imageUrl:
             'pokerapp.png',
           link: 'https://github.com/mkbeefcake/baupoker',
+        },
+        {
+          title: 'BlackMagic Camera BLE Control Dashboard',
+          skillset: 'BLE, C#, C++, Blackmagic SDK, WinForm, Visual Studio',
+          description:
+            "BlackMagic Camera Control System via BLE stack on Windows platform",
+          imageUrl:
+            'blackmagicblecontrol.png',
+          link: 'https://github.com/mkbeefcake/bluemagicsdk',
         },
       ],
     },
@@ -188,20 +197,29 @@ const CONFIG = {
     {
       title: 'Joystream DAO Community Team',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: 'klaudiusz.eth',
+      authors: 'Community Team Lead',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        "Thank you for all your work on Pioneer improvements, highlighting the successful resolution of numerous UI issues and the improved GraphQL integration, especially noticeable on the Forum, Election categories",
     },
     {
       title: 'FastPlan Gas & Gas Condensate',
       conferenceName: '',
       journalName: 'Fawzi Guehria',
       authors: 'Owner',
-      link: 'https://example.com',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'Thanks to your hard work and dedication, the FastPlan gas & gas condensate system has exceeded my expectations. The timely release on web and desktop platforms, along with its comprehensive charts and calculation features, showcase your exceptional skills and commitment to delivering high-quality solutions.',
+    },
+    {
+      title: 'OpenAI Based Mail Automation System',
+      conferenceName: '',
+      journalName: 'Mattieu Moullec Perso',
+      authors: 'Starter',
+      link: '',
+      description:
+        'The design system architecture, components implementation, and deployment on GCP exceeded our expectations and have significantly improved our efficiency',
     },
   ],
   // Display articles from your medium or dev account. (Optional)

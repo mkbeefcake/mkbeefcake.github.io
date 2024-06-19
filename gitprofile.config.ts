@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Repositories',
+      header: 'Public Repositories',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -29,24 +29,32 @@ const CONFIG = {
       },
     },
     external: {
-      header: 'My Personal Projects',
+      header: 'Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Joystream DAO Website',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Joystream is an open-source platform built on blockchain. It supports multiple video streaming apps at once. Videos uploaded on any Joystream app can be seen by users of other apps, helping creators grow their audience.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'pioneer.png',
+          link: 'https://pioneerapp.xyz',
         },
         {
-          title: 'Project Name',
+          title: 'DataUnion Portal Website',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'DataUnion Foundation is a cooperative protocol built on top of Ocean Protocol — an open-source, layer 2 protocol, built on Ethereum, that aims to allow businesses and individuals to exchange and monetize data and data-based services.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'dataunion.png',
+          link: 'https://dataunion.app',
+        },
+        {
+          title: 'FastPlan Website & App',
+          description:
+            'FastPlan is a sophisticated program designed for precise Gas and Gas condensate calculations, utilizing a robust Fortran core engine for enhanced computational efficiency.',
+          imageUrl:
+            'fastplan.jpg',
+          link: 'https://github.com/mkbeefcake/Gfex',
         },
       ],
     },
@@ -89,9 +97,11 @@ const CONFIG = {
     'C/C++/C#',
     'PHP',
     'React.js',
+    'React Native',
     'Node.js',
     'FastAPI',
     'Laravel',
+    'Firebase',
     'MySQL',
     'PostgreSQL',
     'Git',
@@ -100,7 +110,10 @@ const CONFIG = {
     'Antd',
     'Tailwind',
     'OpenAI',
-    'Web3'
+    'Web3',
+    'GCP',
+    'AWS',
+    'Heroku'
   ],
   experiences: [
     {
@@ -116,6 +129,13 @@ const CONFIG = {
       from: 'January 2022',
       to: 'April 2022',
       companyLink: 'https://dataunion.app',
+    },
+    {
+      company: 'Freelancer',
+      position: 'Full Stack & Software Developer',
+      from: 'January 2018',
+      to: 'June 2021',
+      companyLink: '',
     },
   ],
   certifications: [

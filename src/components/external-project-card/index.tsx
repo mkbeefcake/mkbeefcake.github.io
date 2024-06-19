@@ -2,6 +2,32 @@ import { Fragment } from 'react';
 import LazyImage from '../lazy-image';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 3,
+    partialVisibilityGutter: 40
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 2,
+    partialVisibilityGutter: 30
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    partialVisibilityGutter: 30
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    partialVisibilityGutter: 30
+  }
+};
 
 const ExternalProjectCard = ({
   externalProjects,
@@ -69,7 +95,7 @@ const ExternalProjectCard = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 cursor-pointer m-5"
         key={index}
         href={item.link}
         onClick={(e) => {
@@ -93,15 +119,15 @@ const ExternalProjectCard = ({
             <div className="w-full">
               <div className="px-4">
                 <div className="text-center w-full">
-                  <h2 className="font-medium text-center opacity-60 mb-2">
+                  <h2 className="font-bold text-center text-xl opacity-60 mb-2">
                     {item.title}
                   </h2>
                   {item.imageUrl && (
                     <div className="avatar opacity-90">
-                      <div className="w-24 h-24 mask mask-squircle">
+                      <div className="w-96 h-64">
                         <LazyImage
                           src={item.imageUrl}
-                          alt={'thumbnail'}
+                          alt={'thumbnail'}      
                           placeholder={skeleton({
                             widthCls: 'w-full',
                             heightCls: 'h-full',
@@ -142,9 +168,15 @@ const ExternalProjectCard = ({
                   </h5>
                 </div>
                 <div className="col-span-2">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <Carousel 
+                    showDots={true}
+                    infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={5000}
+                    itemClass="carousel-item-padding-40-px"
+                    responsive={responsive}>
                     {loading ? renderSkeleton() : renderExternalProjects()}
-                  </div>
+                  </Carousel>
                 </div>
               </div>
             </div>

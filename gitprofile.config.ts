@@ -34,6 +34,7 @@ const CONFIG = {
       projects: [
         {
           title: 'Joystream DAO Website',
+          skillset: 'React, Web3, Polkadot, GraphQL, PostgreSQL',
           description:
             'Joystream is an open-source platform built on blockchain. It supports multiple video streaming apps at once. Videos uploaded on any Joystream app can be seen by users of other apps, helping creators grow their audience.',
           imageUrl:
@@ -42,6 +43,7 @@ const CONFIG = {
         },
         {
           title: 'DataUnion Portal Website',
+          skillset: 'React, Web3, Ethereum, MUI',
           description:
             'DataUnion Foundation is a cooperative protocol built on top of Ocean Protocol — an open-source, layer 2 protocol, built on Ethereum, that aims to allow businesses and individuals to exchange and monetize data and data-based services.',
           imageUrl:
@@ -50,11 +52,39 @@ const CONFIG = {
         },
         {
           title: 'FastPlan Website & App',
+          skillset: 'Vue, Electron, Chart, Fortran',
           description:
             'FastPlan is a sophisticated program designed for precise Gas and Gas condensate calculations, utilizing a robust Fortran core engine for enhanced computational efficiency.',
           imageUrl:
             'fastplan.jpg',
           link: 'https://github.com/mkbeefcake/Gfex',
+        },
+        {
+          title: 'Jitsi Meet Customized',
+          skillset: 'React, Electron',
+          description:
+            "Customized Jitsi Meet to meet the specific UI update needs of a university in Luxemberg, enhancing it to better support remote courses.",
+          imageUrl:
+            'jitsi-meet.png',
+          link: 'https://github.com/mkbeefcake/jitsi-meet-customized',
+        },
+        {
+          title: 'OpenAI Based Mail Automation System',
+          skillset: 'React, FastAPI, OpenAI, Pinecone, Supabase, GCP',
+          description:
+            "An OpenAI-based auto mail response system that analyzes end-users' requests, detects their personalities, and suggests tailored products.",
+          imageUrl:
+            'chatautomation.png',
+          link: 'https://frontend-yix5m2x4pq-uc.a.run.app/',
+        },
+        {
+          title: 'ReactNative Poker Mobile App',
+          skillset: 'React Native, Laravel, Android, iOS',
+          description:
+            "A simple poker app that offers a user-friendly interface for playing virtual-money poker game securely and conveniently on mobile devices.",
+          imageUrl:
+            'pokerapp.png',
+          link: 'https://github.com/mkbeefcake/baupoker',
         },
       ],
     },
@@ -156,7 +186,7 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: 'Joystream DAO Community Team',
       conferenceName: '',
       journalName: 'Journal Name',
       authors: 'John Doe, Jane Smith',
@@ -165,10 +195,10 @@ const CONFIG = {
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
+      title: 'FastPlan Gas & Gas Condensate',
+      conferenceName: '',
+      journalName: 'Fawzi Guehria',
+      authors: 'Owner',
       link: 'https://example.com',
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',

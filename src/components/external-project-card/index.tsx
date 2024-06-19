@@ -140,6 +140,9 @@ const ExternalProjectCard = ({
                   <p className="mt-2 text-base-content text-opacity-60 text-sm text-justify">
                     {item.description}
                   </p>
+                  <p className="mt-4 text-base-content text-opacity-60 text-sm text-justify italic">
+                    {item.skillset}
+                  </p>
                 </div>
               </div>
             </div>

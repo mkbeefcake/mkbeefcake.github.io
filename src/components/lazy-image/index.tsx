@@ -30,7 +30,7 @@ const LazyImage: React.FC<{
 
   return (
     <Fragment>
-      {loading ? placeholder : <img src={src} alt={alt} {...rest} className='filter grayscale hover:filer-none transition ease-in-out duration-300' style={{ objectFit: 'contain' }} />}
+      {loading ? placeholder : <img src={src} alt={alt} {...rest}  style={{ objectFit: 'contain' }} />}
     </Fragment>
   );
 };

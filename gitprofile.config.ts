@@ -87,6 +87,15 @@ const CONFIG = {
           link: 'https://github.com/mkbeefcake/baupoker',
         },
         {
+          title: 'ReactNative Real Estate Mobile App',
+          skillset: 'React Native, Laravel, Android, iOS',
+          description:
+            "A simple Real Estate Mobile application",
+          imageUrl:
+            'availaview.png',
+          link: 'https://github.com/mkbeefcake/availaview',
+        },
+        {
           title: 'BlackMagic Camera BLE Control Dashboard',
           skillset: 'BLE, C#, C++, Blackmagic SDK, WinForm, Visual Studio',
           description:

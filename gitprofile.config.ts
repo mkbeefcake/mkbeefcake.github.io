@@ -69,7 +69,7 @@ const CONFIG = {
           link: 'https://github.com/mkbeefcake/jitsi-meet-customized',
         },
         {
-          title: 'OpenAI Based Mail Automation System',
+          title: 'OpenAI Based Mail Automation System (MVP)',
           skillset: 'React/NextJS, FastAPI, OpenAI, Pinecone, Supabase, GCP',
           description:
             "An OpenAI-based auto mail response system that analyzes end-users' requests, detects their personalities, and suggests tailored products.",
@@ -78,7 +78,7 @@ const CONFIG = {
           link: 'https://frontend-yix5m2x4pq-uc.a.run.app/',
         },
         {
-          title: 'ReactNative Poker Mobile App',
+          title: 'ReactNative Poker Mobile App (Private)',
           skillset: 'React Native, Laravel, Android, iOS',
           description:
             "A simple poker app that offers a user-friendly interface for playing virtual-money poker game securely and conveniently on mobile devices.",
@@ -87,7 +87,7 @@ const CONFIG = {
           link: 'https://github.com/mkbeefcake/baupoker',
         },
         {
-          title: 'ReactNative Real Estate Mobile App',
+          title: 'ReactNative Real Estate Mobile App (Private)',
           skillset: 'React Native, Laravel, Android, iOS',
           description:
             "A simple Real Estate Mobile application",

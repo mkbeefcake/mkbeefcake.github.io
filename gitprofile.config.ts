@@ -174,18 +174,25 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'EZAI.io',
+      position: 'AI LLM Consultant',
+      from: 'May 2024',
+      to: 'July 2024',
+      companyLink: 'https://ezai.io',
+    },
+    {
+      company: 'Basis Consultants Limited, UK',
+      position: 'AI LLM & Full Stack Developer',
+      from: 'May 2023',
+      to: 'Now',
+      companyLink: 'https://find-and-update.company-information.service.gov.uk/company/14443713',
+    },
+    {
       company: 'Joystream Community',
       position: 'React & Web3 Developer',
       from: 'June 2022',
       to: 'December 2023',
       companyLink: 'https://pioneerapp.xyz',
-    },
-    {
-      company: 'DataUnion',
-      position: 'Full Stack & Web3 Developer',
-      from: 'January 2022',
-      to: 'April 2022',
-      companyLink: 'https://dataunion.app',
     },
     {
       company: 'Freelancer',

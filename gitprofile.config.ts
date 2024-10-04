@@ -69,6 +69,15 @@ const CONFIG = {
           link: 'https://github.com/mkbeefcake/jitsi-meet-customized',
         },
         {
+          title: 'Finetune Llama-2-7B model for extracting sensitive information',
+          skillset: 'Google Colab, Python, Llama2, NumPy, LLM',
+          description:
+            "Fine tuned Llama-2-7b model for extrating sensitive information from scrapped webpage such as contact, address, phone, photo and etc",
+          imageUrl:
+            'llama-2-7b-finetune.png',
+          link: 'https://colab.research.google.com/drive/1UjqIQFti1jyD7_wqTi8_dPSBgG9Xf3Kn?usp=sharing',
+        },
+        {
           title: 'OpenAI Based Mail Automation System (MVP)',
           skillset: 'React/NextJS, FastAPI, OpenAI, Pinecone, Supabase, GCP',
           description:

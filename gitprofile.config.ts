@@ -102,7 +102,7 @@ const CONFIG = {
             "A simple Real Estate Mobile application",
           imageUrl:
             'availaview.png',
-          link: 'https://github.com/mkbeefcake/availaview',
+          link: 'https://github.com/mkbeefcake/baurealestate',
         },
         {
           title: 'BlackMagic Camera BLE Control Dashboard',

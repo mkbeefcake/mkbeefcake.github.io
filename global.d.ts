@@ -87,6 +87,8 @@ interface Projects {
   github?: GitHubProjects;
 
   external?: ExternalProjects;
+  external1?: ExternalProjects;
+  external2?: ExternalProjects;
 }
 
 interface SEO {

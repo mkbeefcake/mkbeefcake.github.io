@@ -9,23 +9,23 @@ const responsive = {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 3,
-    partialVisibilityGutter: 40
+    partialVisibilityGutter: 40,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 2,
-    partialVisibilityGutter: 30
+    partialVisibilityGutter: 30,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 1,
-    partialVisibilityGutter: 30
+    partialVisibilityGutter: 30,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
-    partialVisibilityGutter: 30
-  }
+    partialVisibilityGutter: 30,
+  },
 };
 
 const PublicationCard = ({
@@ -162,16 +162,17 @@ const PublicationCard = ({
                   </h5>
                 </div>
                 <div className="col-span-2">
-                  <Carousel 
-                      arrows={false}
-                      showDots={true}
-                      infinite={true}
-                      autoPlay={true}
-                      autoPlaySpeed={10000}
-                      itemClass="carousel-item-padding-40-px"
-                      responsive={responsive}>
+                  <Carousel
+                    arrows={false}
+                    showDots={true}
+                    infinite={true}
+                    autoPlay={true}
+                    autoPlaySpeed={10000}
+                    itemClass="carousel-item-padding-40-px"
+                    responsive={responsive}
+                  >
                     {loading ? renderSkeleton() : renderPublications()}
-                    </Carousel>
+                  </Carousel>
                 </div>
               </div>
             </div>

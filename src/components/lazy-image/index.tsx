@@ -30,7 +30,11 @@ const LazyImage: React.FC<{
 
   return (
     <Fragment>
-      {loading ? placeholder : <img src={src} alt={alt} {...rest}  style={{ objectFit: 'contain' }} />}
+      {loading ? (
+        placeholder
+      ) : (
+        <img src={src} alt={alt} {...rest} style={{ objectFit: 'contain' }} />
+      )}
     </Fragment>
   );
 };

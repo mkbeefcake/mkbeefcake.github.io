@@ -10,23 +10,23 @@ const responsive = {
     // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 3,
-    partialVisibilityGutter: 40
+    partialVisibilityGutter: 40,
   },
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 2,
-    partialVisibilityGutter: 30
+    partialVisibilityGutter: 30,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
     items: 1,
-    partialVisibilityGutter: 30
+    partialVisibilityGutter: 30,
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
     items: 1,
-    partialVisibilityGutter: 30
-  }
+    partialVisibilityGutter: 30,
+  },
 };
 
 const ExternalProjectCard = ({
@@ -127,7 +127,7 @@ const ExternalProjectCard = ({
                       <div className="w-96 h-64">
                         <LazyImage
                           src={item.imageUrl}
-                          alt={'thumbnail'}      
+                          alt={'thumbnail'}
                           placeholder={skeleton({
                             widthCls: 'w-full',
                             heightCls: 'h-full',
@@ -171,13 +171,14 @@ const ExternalProjectCard = ({
                   </h5>
                 </div>
                 <div className="col-span-2">
-                  <Carousel 
+                  <Carousel
                     showDots={true}
                     infinite={true}
                     autoPlay={true}
                     autoPlaySpeed={5000}
                     itemClass="carousel-item-padding-40-px"
-                    responsive={responsive}>
+                    responsive={responsive}
+                  >
                     {loading ? renderSkeleton() : renderExternalProjects()}
                   </Carousel>
                 </div>

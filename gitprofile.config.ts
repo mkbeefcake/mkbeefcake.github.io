@@ -51,6 +51,15 @@ const CONFIG = {
           link: 'https://frontend-yix5m2x4pq-uc.a.run.app/',
         },
         {
+          title: 'Finetune Llama-2-7B model for extracting sensitive information',
+          skillset: 'Google Colab, Python, Llama2, NumPy, LLM',
+          description:
+            "Fine tuned Llama-2-7b model for extrating sensitive information from scrapped webpage such as contact, address, phone, photo and etc",
+          imageUrl:
+            'llama-2-7b-finetune.png',
+          link: 'https://colab.research.google.com/drive/1UjqIQFti1jyD7_wqTi8_dPSBgG9Xf3Kn?usp=sharing',
+        },
+        {
           title: 'ReactNative Poker Mobile App (Private)',
           skillset: 'React Native, Laravel, Android, iOS',
           description:
@@ -67,15 +76,6 @@ const CONFIG = {
           imageUrl:
             'availaview.png',
           link: 'https://github.com/mkbeefcake/baurealestate',
-        },
-        {
-          title: 'Finetune Llama-2-7B model for extracting sensitive information',
-          skillset: 'Google Colab, Python, Llama2, NumPy, LLM',
-          description:
-            "Fine tuned Llama-2-7b model for extrating sensitive information from scrapped webpage such as contact, address, phone, photo and etc",
-          imageUrl:
-            'llama-2-7b-finetune.png',
-          link: 'https://colab.research.google.com/drive/1UjqIQFti1jyD7_wqTi8_dPSBgG9Xf3Kn?usp=sharing',
         },
         // {
         //   title: 'DataUnion Portal Website',

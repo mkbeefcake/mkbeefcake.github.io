@@ -175,7 +175,7 @@ const ExternalProjectCard = ({
                     showDots={true}
                     infinite={true}
                     autoPlay={true}
-                    autoPlaySpeed={5000}
+                    autoPlaySpeed={9000}
                     itemClass="carousel-item-padding-40-px"
                     responsive={responsive}>
                     {loading ? renderSkeleton() : renderExternalProjects()}

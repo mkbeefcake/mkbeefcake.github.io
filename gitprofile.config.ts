@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['joystream/pioneer', 'joystream/joystream', 'mkbeefcake/jitsi-meet-customized', 'mkbeefcake/Gfex', 'mkbeefcake/GFex-Electron', 'sapien-systems/ThoughtWare'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
+        projects: ['mkbeefcake/pioneer', 'mkbeefcake/joystream', 'mkbeefcake/jitsi-meet-customized', 'mkbeefcake/Gfex', 'mkbeefcake/GFex-Electron', 'sapien-systems/ThoughtWare'], // List of repository names to display. example: ['mkbeefcake/my-project1', 'mkbeefcake/my-project2']
       },
     },
     external: {
@@ -40,42 +40,6 @@ const CONFIG = {
           imageUrl:
             'pioneer.png',
           link: 'https://pioneerapp.xyz',
-        },
-        {
-          title: 'DataUnion Portal Website',
-          skillset: 'React, Web3, Ethereum, MUI',
-          description:
-            'DataUnion Foundation is a cooperative protocol built on top of Ocean Protocol — an open-source, layer 2 protocol, built on Ethereum, that aims to allow businesses and individuals to exchange and monetize data and data-based services.',
-          imageUrl:
-            'dataunion.png',
-          link: 'https://dataunion.app',
-        },
-        {
-          title: 'FastPlan Website & App',
-          skillset: 'Vue, Electron, Chart, Fortran',
-          description:
-            'FastPlan is a sophisticated program designed for precise Gas and Gas condensate calculations, utilizing a robust Fortran core engine for enhanced computational efficiency.',
-          imageUrl:
-            'fastplan.jpg',
-          link: 'https://github.com/mkbeefcake/Gfex',
-        },
-        {
-          title: 'Jitsi Meet Customized',
-          skillset: 'React, Electron',
-          description:
-            "Customized Jitsi Meet to meet the specific UI update needs of a university in Luxemberg, enhancing it to better support remote courses.",
-          imageUrl:
-            'jitsi-meet.png',
-          link: 'https://github.com/mkbeefcake/jitsi-meet-customized',
-        },
-        {
-          title: 'Finetune Llama-2-7B model for extracting sensitive information',
-          skillset: 'Google Colab, Python, Llama2, NumPy, LLM',
-          description:
-            "Fine tuned Llama-2-7b model for extrating sensitive information from scrapped webpage such as contact, address, phone, photo and etc",
-          imageUrl:
-            'llama-2-7b-finetune.png',
-          link: 'https://colab.research.google.com/drive/1UjqIQFti1jyD7_wqTi8_dPSBgG9Xf3Kn?usp=sharing',
         },
         {
           title: 'OpenAI Based Mail Automation System (MVP)',
@@ -105,6 +69,42 @@ const CONFIG = {
           link: 'https://github.com/mkbeefcake/baurealestate',
         },
         {
+          title: 'Finetune Llama-2-7B model for extracting sensitive information',
+          skillset: 'Google Colab, Python, Llama2, NumPy, LLM',
+          description:
+            "Fine tuned Llama-2-7b model for extrating sensitive information from scrapped webpage such as contact, address, phone, photo and etc",
+          imageUrl:
+            'llama-2-7b-finetune.png',
+          link: 'https://colab.research.google.com/drive/1UjqIQFti1jyD7_wqTi8_dPSBgG9Xf3Kn?usp=sharing',
+        },
+        // {
+        //   title: 'DataUnion Portal Website',
+        //   skillset: 'React, Web3, Ethereum, MUI',
+        //   description:
+        //     'DataUnion Foundation is a cooperative protocol built on top of Ocean Protocol — an open-source, layer 2 protocol, built on Ethereum, that aims to allow businesses and individuals to exchange and monetize data and data-based services.',
+        //   imageUrl:
+        //     'dataunion.png',
+        //   link: 'https://dataunion.app',
+        // },
+        {
+          title: 'FastPlan Website & App',
+          skillset: 'Vue, Electron, Chart, Fortran',
+          description:
+            'FastPlan is a sophisticated program designed for precise Gas and Gas condensate calculations, utilizing a robust Fortran core engine for enhanced computational efficiency.',
+          imageUrl:
+            'fastplan.jpg',
+          link: 'https://github.com/mkbeefcake/Gfex',
+        },
+        {
+          title: 'Jitsi Meet Customized',
+          skillset: 'React, Electron',
+          description:
+            "Customized Jitsi Meet to meet the specific UI update needs of a university in Luxemberg, enhancing it to better support remote courses.",
+          imageUrl:
+            'jitsi-meet.png',
+          link: 'https://github.com/mkbeefcake/jitsi-meet-customized',
+        },
+        {
           title: 'BlackMagic Camera BLE Control Dashboard',
           skillset: 'BLE, C#, C++, Blackmagic SDK, WinForm, Visual Studio',
           description:
@@ -117,7 +117,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Mark Sun',
+    title: 'Portfolio of mk~beefcake~',
     description: '',
     imageURL: '',
   },
@@ -173,16 +173,16 @@ const CONFIG = {
     'Heroku'
   ],
   experiences: [
-    {
-      company: 'EZAI.io',
-      position: 'AI LLM Consultant',
-      from: 'May 2024',
-      to: 'July 2024',
-      companyLink: 'https://ezai.io',
-    },
+    // {
+    //   company: 'EZAI.io',
+    //   position: 'AI LLM Consultant',
+    //   from: 'May 2024',
+    //   to: 'July 2024',
+    //   companyLink: 'https://ezai.io',
+    // },
     {
       company: 'Basis Consultants Limited, UK',
-      position: 'AI LLM & Full Stack Developer',
+      position: 'Part Time - Full Stack Developer',
       from: 'May 2023',
       to: 'Now',
       companyLink: 'https://find-and-update.company-information.service.gov.uk/company/14443713',
@@ -325,7 +325,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by Mark Sun and ❤️`,
+  footer: `Made by mk~beefcake~ and ❤️`,
 
   enablePWA: true,
 };

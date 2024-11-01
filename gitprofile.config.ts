@@ -145,7 +145,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://docs.google.com/document/d/15EgLqrZLCYL0m4zdKXqvJNadDS_JIDkSLrVVlvqkDpU/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://docs.google.com/document/d/1hKUU__OP9ViSWOYvwseHSBHACLXb3ajm_WFDlYqV8OM/edit?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',

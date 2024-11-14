@@ -21,8 +21,7 @@ interface AvatarCardProps {
 const AvatarCard: React.FC<AvatarCardProps> = ({
   profile,
   loading,
-  avatarRing,
-  resumeFileUrl,
+  avatarRing,  
 }): JSX.Element => {
   return (
     <div className="card shadow-lg compact bg-base-100">

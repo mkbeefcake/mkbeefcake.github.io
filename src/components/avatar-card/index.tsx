@@ -76,7 +76,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
               : profile.bio}
           </div>
         </div>
-        { (loading ? (
+        {/* { (loading ? (
             <div className="mt-6">
               {skeleton({ widthCls: 'w-40', heightCls: 'h-8' })}
             </div>
@@ -90,7 +90,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             >
               Download Resume
             </a>
-          ))} 
+          ))}  */}
       </div>
     </div>
   );

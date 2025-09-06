@@ -117,7 +117,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ethan Yates',
+    title: 'mkbeefcake - Github Page',
     description: '',
     imageURL: '',
   },
@@ -137,10 +137,10 @@ const CONFIG = {
     medium: '',
     dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
-    telegram: '@mkbeefcake',
+    telegram: '',
     website: '',
     phone: '',
-    email: 'ethanyates.forward@gmail.com',
+    email: '',
   },
   resume: {
     fileUrl:
@@ -316,7 +316,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made by Ethan Yates and ❤️`,
+  footer: ``,
 
   enablePWA: true,
 };

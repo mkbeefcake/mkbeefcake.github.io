@@ -344,14 +344,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`skype:${social.skype}?chat`}
                 />
               )}
-              {social?.telegram && (
+              {/* {social?.telegram && (
                 <ListItem
                   icon={<FaTelegram />}
                   title="Telegram"
                   value={social.telegram}
                   link={`https://t.me/${social.telegram}`}
                 />
-              )}
+              )} */}
               {social?.phone && (
                 <ListItem
                   icon={<RiPhoneFill />}
@@ -360,14 +360,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   link={`tel:${social.phone}`}
                 />
               )}
-              {social?.email && (
+              {/* {social?.email && (
                 <ListItem
                   icon={<RiMailFill />}
                   title="Email:"
                   value={social.email}
                   link={`mailto:${social.email}`}
                 />
-              )}
+              )} */}
             </Fragment>
           )}
         </div>
